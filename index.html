@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#luckSport{
+				background: url(gua.jpg);
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="luckSport" width="500" height="500"></canvas>
+		
+		<script src="lucksport.js"></script>
+		
+		<script type="text/javascript">
+			var canvasElem=document.getElementById("luckSport");
+			var luckSport=new LuckSport(canvasElem);
+			luckSport.init();
+		</script>
+		
+	</body>
+</html>
